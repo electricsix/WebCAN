@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head><title>Results</title></head>
+<body>
+<h1>Decoded Plot</h1>
+<img src="{{ url_for('uploaded_file', filename=plotfile) }}" alt="Plot"><br>
+<a href="{{ url_for('uploaded_file', filename=csvfile) }}">Download CSV</a>
+</body>
+</html>
